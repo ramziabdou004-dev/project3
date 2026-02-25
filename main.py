@@ -33,7 +33,7 @@ def classifiy(model, image: Image.Image):
     """Prédit la classification de l'image."""
     try:
         process = image_propres(image)
-        # S'assurer que model est bien l'objet Keras, pas la fonction
+      
         prediction = model.predict(process)
         # La fonction retourne le résultat décodé
         decode_result = decode_predictions(prediction, top=3)[0]
