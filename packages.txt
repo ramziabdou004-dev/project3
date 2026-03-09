@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 libglib2.0-0
 libsm6
 libxext6
 libxrender1
 opencv-python-headless
+=======
+opencv-python-headless
+libgl1
+libglib2.0-dev
+
+
+>>>>>>> 385e1019a42820dcdcf4fe7e5c662e4f3977a3b8
+
+
+ 
